@@ -10,7 +10,7 @@ def extract_data_from_log(log_file):
         log = f.read()
     file_paths = {
         "already_installed": re.findall(r"(?<=Requirement already satisfied: )\S+", log),
-        "not_installed": re.findall(r"(?<=ERROR: pip's dependency resolver does not).+(?=\n)", log),
+        "to_be_ignored": re.findall(r"(?<=ERROR: pip's dependency resolver does not).+(?=\n)", log),
         "uninstalled": re.findall(r"(?<=Successfully uninstalled )\S+", log),
         "to_be_uninstalled": re.findall(r".+(?=Successfully installed)", log)
     }
@@ -67,12 +67,13 @@ def main():
     output_file = './solucao.py'
     try:
         # extrai as informações relevantes do arquivo de log
-        already_installed, to_be_installed, to_be_uninstalled = extract_data_from_log(log_file)
+        already_installed, to_be_ignored, to_be_installed, to_be_uninstalled,  = extract_data_from_log(log_file)
 
         # gera os comandos necessários para instalar/desinstalar as bibliotecas
         install_commands = generate_install_commands(to_be_installed)
         uninstall_commands = generate_uninstall_commands(to_be_uninstalled, already_installed)
-
+        # para serem ignorados
+        print(f"ignorados {to_be_ignored}")
         # escreve os comandos gerados em um arquivo
         write_commands_to_file(output_file, install_commands + uninstall_commands)
     except Exception as e:
