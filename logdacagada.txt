@@ -1,0 +1,324 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting en-core-web-sm@ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 49.3 MB/s eta 0:00:00
+Collecting beautifulsoup4>=4.12.2
+  Using cached beautifulsoup4-4.12.2-py3-none-any.whl (142 kB)
+Collecting colorama==0.4.6
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting distro==1.8.0
+  Downloading distro-1.8.0-py3-none-any.whl (20 kB)
+Collecting openai==0.27.2
+  Downloading openai-0.27.2-py3-none-any.whl (70 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.1/70.1 KB 3.9 MB/s eta 0:00:00
+Collecting playsound==1.2.2
+  Downloading playsound-1.2.2-py2.py3-none-any.whl (6.0 kB)
+Collecting python-dotenv==1.0.0
+  Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Collecting pyyaml==6.0
+  Downloading PyYAML-6.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (682 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 682.2/682.2 KB 22.8 MB/s eta 0:00:00
+Collecting readability-lxml==0.8.1
+  Downloading readability_lxml-0.8.1-py3-none-any.whl (20 kB)
+Requirement already satisfied: requests in /usr/lib/python3/dist-packages (from -r requirements.txt (line 9)) (2.25.1)
+Collecting tiktoken==0.3.3
+  Downloading tiktoken-0.3.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 37.0 MB/s eta 0:00:00
+Collecting gTTS==2.3.1
+  Downloading gTTS-2.3.1-py3-none-any.whl (28 kB)
+Collecting docker
+  Downloading docker-6.1.0-py3-none-any.whl (147 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.9/147.9 KB 31.8 MB/s eta 0:00:00
+Collecting duckduckgo-search
+  Downloading duckduckgo_search-2.9.3-py3-none-any.whl (30 kB)
+Requirement already satisfied: google-api-python-client in /home/peixoto/.local/lib/python3.10/site-packages (from -r requirements.txt (line 14)) (2.85.0)
+Collecting pinecone-client==2.2.1
+  Downloading pinecone_client-2.2.1-py3-none-any.whl (177 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 177.2/177.2 KB 40.2 MB/s eta 0:00:00
+Collecting redis
+  Downloading redis-4.5.4-py3-none-any.whl (238 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 238.9/238.9 KB 53.4 MB/s eta 0:00:00
+Collecting orjson==3.8.10
+  Downloading orjson-3.8.10-cp310-cp310-manylinux_2_28_x86_64.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 KB 24.2 MB/s eta 0:00:00
+Requirement already satisfied: Pillow in /usr/lib/python3/dist-packages (from -r requirements.txt (line 18)) (9.0.1)
+Collecting selenium==4.1.4
+  Downloading selenium-4.1.4-py3-none-any.whl (979 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 979.3/979.3 KB 91.7 MB/s eta 0:00:00
+Collecting webdriver-manager
+  Downloading webdriver_manager-3.8.6-py2.py3-none-any.whl (27 kB)
+Requirement already satisfied: jsonschema in /home/peixoto/.local/lib/python3.10/site-packages (from -r requirements.txt (line 21)) (4.17.3)
+Collecting tweepy
+  Downloading tweepy-4.14.0-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.5/98.5 KB 23.9 MB/s eta 0:00:00
+Requirement already satisfied: click in /usr/lib/python3/dist-packages (from -r requirements.txt (line 23)) (8.0.3)
+Requirement already satisfied: charset-normalizer>=3.1.0 in /home/peixoto/.local/lib/python3.10/site-packages (from -r requirements.txt (line 24)) (3.1.0)
+Collecting spacy<4.0.0,>=3.0.0
+  Downloading spacy-3.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 48.0 MB/s eta 0:00:00
+Collecting coverage
+  Downloading coverage-7.2.5-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (228 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 228.2/228.2 KB 43.9 MB/s eta 0:00:00
+Collecting flake8
+  Downloading flake8-6.0.0-py2.py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.8/57.8 KB 14.1 MB/s eta 0:00:00
+Requirement already satisfied: numpy in /usr/lib/python3/dist-packages (from -r requirements.txt (line 31)) (1.21.5)
+Collecting pre-commit
+  Downloading pre_commit-3.3.1-py2.py3-none-any.whl (202 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 202.5/202.5 KB 42.6 MB/s eta 0:00:00
+Collecting black
+  Downloading black-23.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 59.7 MB/s eta 0:00:00
+Collecting isort
+  Downloading isort-5.12.0-py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 KB 23.0 MB/s eta 0:00:00
+Collecting gitpython==3.1.31
+  Downloading GitPython-3.1.31-py3-none-any.whl (184 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.3/184.3 KB 40.7 MB/s eta 0:00:00
+Collecting auto-gpt-plugin-template
+  Downloading auto_gpt_plugin_template-0.0.3-py3-none-any.whl (3.4 kB)
+Collecting mkdocs
+  Downloading mkdocs-1.4.3-py3-none-any.whl (3.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 48.1 MB/s eta 0:00:00
+Collecting pymdown-extensions
+  Downloading pymdown_extensions-9.11-py3-none-any.whl (239 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.9/239.9 KB 50.4 MB/s eta 0:00:00
+Collecting openapi-python-client==0.13.4
+  Downloading openapi_python_client-0.13.4-py3-none-any.whl (103 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.7/103.7 KB 26.8 MB/s eta 0:00:00
+Requirement already satisfied: pytest in /home/peixoto/.local/lib/python3.10/site-packages (from -r requirements.txt (line 47)) (2.6.0)
+Collecting asynctest
+  Downloading asynctest-0.13.0-py3-none-any.whl (26 kB)
+Collecting pytest-asyncio
+  Downloading pytest_asyncio-0.21.0-py3-none-any.whl (13 kB)
+Collecting pytest-benchmark
+  Downloading pytest_benchmark-4.0.0-py3-none-any.whl (43 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 KB 9.3 MB/s eta 0:00:00
+Collecting pytest-cov
+  Downloading pytest_cov-4.0.0-py3-none-any.whl (21 kB)
+Collecting pytest-integration
+  Downloading pytest_integration-0.2.3-py3-none-any.whl (4.5 kB)
+Collecting pytest-mock
+  Downloading pytest_mock-3.10.0-py3-none-any.whl (9.3 kB)
+Collecting vcrpy
+  Downloading vcrpy-4.2.1-py2.py3-none-any.whl (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 KB 8.0 MB/s eta 0:00:00
+Collecting pytest-recording
+  Downloading pytest_recording-0.12.2-py3-none-any.whl (12 kB)
+Requirement already satisfied: aiohttp in /home/peixoto/.local/lib/python3.10/site-packages (from openai==0.27.2->-r requirements.txt (line 4)) (3.8.4)
+Requirement already satisfied: tqdm in /home/peixoto/.local/lib/python3.10/site-packages (from openai==0.27.2->-r requirements.txt (line 4)) (4.65.0)
+Requirement already satisfied: lxml in /home/peixoto/.local/lib/python3.10/site-packages (from readability-lxml==0.8.1->-r requirements.txt (line 8)) (4.9.2)
+Requirement already satisfied: chardet in /usr/lib/python3/dist-packages (from readability-lxml==0.8.1->-r requirements.txt (line 8)) (4.0.0)
+Collecting cssselect
+  Downloading cssselect-1.2.0-py2.py3-none-any.whl (18 kB)
+Collecting regex>=2022.1.18
+  Downloading regex-2023.5.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (769 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 769.7/769.7 KB 51.2 MB/s eta 0:00:00
+Collecting requests
+  Downloading requests-2.30.0-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.5/62.5 KB 13.6 MB/s eta 0:00:00
+Requirement already satisfied: urllib3>=1.21.1 in /usr/lib/python3/dist-packages (from pinecone-client==2.2.1->-r requirements.txt (line 15)) (1.26.5)
+Collecting typing-extensions>=3.7.4
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting loguru>=0.5.0
+  Downloading loguru-0.7.0-py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.0/60.0 KB 13.6 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.5.3 in /usr/lib/python3/dist-packages (from pinecone-client==2.2.1->-r requirements.txt (line 15)) (2.8.1)
+Requirement already satisfied: dnspython>=2.0.0 in /usr/lib/python3/dist-packages (from pinecone-client==2.2.1->-r requirements.txt (line 15)) (2.1.0)
+Collecting trio~=0.17
+  Downloading trio-0.22.0-py3-none-any.whl (384 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 384.9/384.9 KB 63.4 MB/s eta 0:00:00
+Collecting trio-websocket~=0.9
+  Downloading trio_websocket-0.10.2-py3-none-any.whl (17 kB)
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.10-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 KB 12.7 MB/s eta 0:00:00
+Collecting autoflake<3.0.0,>=1.4
+  Downloading autoflake-2.1.1-py3-none-any.whl (31 kB)
+Collecting attrs>=21.3.0
+  Using cached attrs-23.1.0-py3-none-any.whl (61 kB)
+Collecting typer<0.8.0,>=0.6
+  Downloading typer-0.7.0-py3-none-any.whl (38 kB)
+Collecting pydantic<2.0.0,>=1.6.1
+  Downloading pydantic-1.10.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 97.4 MB/s eta 0:00:00
+Collecting jinja2<4.0.0,>=3.0.0
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting shellingham<2.0.0,>=1.3.2
+  Downloading shellingham-1.5.0.post1-py2.py3-none-any.whl (9.4 kB)
+Collecting httpx<0.25.0,>=0.15.4
+  Downloading httpx-0.24.0-py3-none-any.whl (75 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.3/75.3 KB 17.7 MB/s eta 0:00:00
+Collecting soupsieve>1.2
+  Using cached soupsieve-2.4.1-py3-none-any.whl (36 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/lib/python3/dist-packages (from requests->-r requirements.txt (line 9)) (2020.6.20)
+Requirement already satisfied: idna<4,>=2.5 in /usr/lib/python3/dist-packages (from requests->-r requirements.txt (line 9)) (3.3)
+Collecting websocket-client>=0.32.0
+  Downloading websocket_client-1.5.1-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.9/55.9 KB 12.2 MB/s eta 0:00:00
+Requirement already satisfied: packaging>=14.0 in /usr/lib/python3/dist-packages (from docker->-r requirements.txt (line 12)) (21.3)
+Collecting diskcache>=5.6.1
+  Downloading diskcache-5.6.1-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 KB 10.7 MB/s eta 0:00:00
+Collecting click
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 KB 27.0 MB/s eta 0:00:00
+Requirement already satisfied: google-auth<3.0.0dev,>=1.19.0 in /home/peixoto/.local/lib/python3.10/site-packages (from google-api-python-client->-r requirements.txt (line 14)) (2.17.3)
+Requirement already satisfied: uritemplate<5,>=3.0.1 in /home/peixoto/.local/lib/python3.10/site-packages (from google-api-python-client->-r requirements.txt (line 14)) (4.1.1)
+Requirement already satisfied: google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0dev,>=1.31.5 in /home/peixoto/.local/lib/python3.10/site-packages (from google-api-python-client->-r requirements.txt (line 14)) (2.11.0)
+Requirement already satisfied: google-auth-httplib2>=0.1.0 in /home/peixoto/.local/lib/python3.10/site-packages (from google-api-python-client->-r requirements.txt (line 14)) (0.1.0)
+Requirement already satisfied: httplib2<1dev,>=0.15.0 in /usr/lib/python3/dist-packages (from google-api-python-client->-r requirements.txt (line 14)) (0.20.2)
+Requirement already satisfied: async-timeout>=4.0.2 in /home/peixoto/.local/lib/python3.10/site-packages (from redis->-r requirements.txt (line 16)) (4.0.2)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /home/peixoto/.local/lib/python3.10/site-packages (from jsonschema->-r requirements.txt (line 21)) (0.19.3)
+Requirement already satisfied: oauthlib<4,>=3.2.0 in /usr/lib/python3/dist-packages (from tweepy->-r requirements.txt (line 22)) (3.2.0)
+Collecting requests-oauthlib<2,>=1.2.0
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Collecting thinc<8.2.0,>=8.1.8
+  Downloading thinc-8.1.10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (913 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 913.3/913.3 KB 87.2 MB/s eta 0:00:00
+Collecting cymem<2.1.0,>=2.0.2
+  Downloading cymem-2.0.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34 kB)
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from spacy<4.0.0,>=3.0.0->-r requirements.txt (line 25)) (59.6.0)
+Collecting langcodes<4.0.0,>=3.2.0
+  Downloading langcodes-3.3.0-py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.6/181.6 KB 37.7 MB/s eta 0:00:00
+Collecting spacy-loggers<2.0.0,>=1.0.0
+  Downloading spacy_loggers-1.0.4-py3-none-any.whl (11 kB)
+Collecting preshed<3.1.0,>=3.0.2
+  Downloading preshed-3.0.8-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.7/124.7 KB 30.7 MB/s eta 0:00:00
+Collecting catalogue<2.1.0,>=2.0.6
+  Downloading catalogue-2.0.8-py3-none-any.whl (17 kB)
+Collecting spacy-legacy<3.1.0,>=3.0.11
+  Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
+Collecting pathy>=0.10.0
+  Downloading pathy-0.10.1-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 KB 11.2 MB/s eta 0:00:00
+Collecting wasabi<1.2.0,>=0.9.1
+  Downloading wasabi-1.1.1-py3-none-any.whl (27 kB)
+Collecting srsly<3.0.0,>=2.4.3
+  Downloading srsly-2.4.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (492 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 492.2/492.2 KB 77.3 MB/s eta 0:00:00
+Collecting murmurhash<1.1.0,>=0.28.0
+  Downloading murmurhash-1.0.9-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (21 kB)
+Collecting smart-open<7.0.0,>=5.2.1
+  Downloading smart_open-6.3.0-py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.8/56.8 KB 13.5 MB/s eta 0:00:00
+Collecting pyflakes<3.1.0,>=3.0.0
+  Downloading pyflakes-3.0.1-py2.py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 KB 13.0 MB/s eta 0:00:00
+Collecting pycodestyle<2.11.0,>=2.10.0
+  Downloading pycodestyle-2.10.0-py2.py3-none-any.whl (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.3/41.3 KB 8.7 MB/s eta 0:00:00
+Collecting mccabe<0.8.0,>=0.7.0
+  Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting identify>=1.0.0
+  Downloading identify-2.5.24-py2.py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.8/98.8 KB 17.5 MB/s eta 0:00:00
+Collecting virtualenv>=20.10.0
+  Downloading virtualenv-20.23.0-py3-none-any.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 91.6 MB/s eta 0:00:00
+Collecting cfgv>=2.0.0
+  Downloading cfgv-3.3.1-py2.py3-none-any.whl (7.3 kB)
+Collecting nodeenv>=0.11.1
+  Downloading nodeenv-1.7.0-py2.py3-none-any.whl (21 kB)
+Collecting pathspec>=0.9.0
+  Downloading pathspec-0.11.1-py3-none-any.whl (29 kB)
+Collecting tomli>=1.1.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting packaging>=14.0
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 KB 11.1 MB/s eta 0:00:00
+Collecting platformdirs>=2
+  Downloading platformdirs-3.5.0-py3-none-any.whl (15 kB)
+Collecting mypy-extensions>=0.4.3
+  Downloading mypy_extensions-1.0.0-py3-none-any.whl (4.7 kB)
+Collecting abstract-singleton
+  Downloading abstract_singleton-1.0.1-py3-none-any.whl (2.5 kB)
+Collecting watchdog>=2.0
+  Downloading watchdog-3.0.0-py3-none-manylinux2014_x86_64.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 KB 18.4 MB/s eta 0:00:00
+Collecting mergedeep>=1.3.4
+  Downloading mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+Collecting ghp-import>=1.0
+  Downloading ghp_import-2.1.0-py3-none-any.whl (11 kB)
+Collecting pyyaml-env-tag>=0.1
+  Downloading pyyaml_env_tag-0.1-py3-none-any.whl (3.9 kB)
+Collecting markdown<3.4,>=3.2.1
+  Downloading Markdown-3.3.7-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.8/97.8 KB 24.7 MB/s eta 0:00:00
+Requirement already satisfied: py>=1.4.22 in /home/peixoto/.local/lib/python3.10/site-packages (from pytest->-r requirements.txt (line 47)) (1.4.22)
+Collecting pytest
+  Downloading pytest-7.3.1-py3-none-any.whl (320 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 320.5/320.5 KB 63.2 MB/s eta 0:00:00
+Collecting iniconfig
+  Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting exceptiongroup>=1.0.0rc8
+  Downloading exceptiongroup-1.1.1-py3-none-any.whl (14 kB)
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Collecting py-cpuinfo
+  Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+Collecting wrapt
+  Downloading wrapt-1.15.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 KB 14.1 MB/s eta 0:00:00
+Requirement already satisfied: yarl in /home/peixoto/.local/lib/python3.10/site-packages (from vcrpy->-r requirements.txt (line 54)) (1.8.2)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from vcrpy->-r requirements.txt (line 54)) (1.16.0)
+Collecting smmap<6,>=3.0.1
+  Using cached smmap-5.0.0-py3-none-any.whl (24 kB)
+Requirement already satisfied: googleapis-common-protos<2.0dev,>=1.56.2 in /home/peixoto/.local/lib/python3.10/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0dev,>=1.31.5->google-api-python-client->-r requirements.txt (line 14)) (1.59.0)
+Requirement already satisfied: protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.19.5 in /home/peixoto/.local/lib/python3.10/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0dev,>=1.31.5->google-api-python-client->-r requirements.txt (line 14)) (3.20.3)
+Requirement already satisfied: rsa<5,>=3.1.4 in /home/peixoto/.local/lib/python3.10/site-packages (from google-auth<3.0.0dev,>=1.19.0->google-api-python-client->-r requirements.txt (line 14)) (4.9)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /home/peixoto/.local/lib/python3.10/site-packages (from google-auth<3.0.0dev,>=1.19.0->google-api-python-client->-r requirements.txt (line 14)) (5.3.0)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /usr/lib/python3/dist-packages (from google-auth<3.0.0dev,>=1.19.0->google-api-python-client->-r requirements.txt (line 14)) (0.2.1)
+Requirement already satisfied: pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 in /usr/lib/python3/dist-packages (from httplib2<1dev,>=0.15.0->google-api-python-client->-r requirements.txt (line 14)) (2.4.7)
+Collecting sniffio
+  Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+Collecting httpcore<0.18.0,>=0.15.0
+  Downloading httpcore-0.17.0-py3-none-any.whl (70 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.6/70.6 KB 6.0 MB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/lib/python3/dist-packages (from jinja2<4.0.0,>=3.0.0->openapi-python-client==0.13.4->-r requirements.txt (line 42)) (2.0.1)
+Collecting confection<1.0.0,>=0.0.1
+  Downloading confection-0.0.4-py3-none-any.whl (32 kB)
+Collecting blis<0.8.0,>=0.7.8
+  Downloading blis-0.7.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 65.8 MB/s eta 0:00:00
+Collecting sortedcontainers
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting outcome
+  Downloading outcome-1.2.0-py2.py3-none-any.whl (9.7 kB)
+Collecting async-generator>=1.9
+  Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Collecting wsproto>=0.14
+  Downloading wsproto-1.2.0-py3-none-any.whl (24 kB)
+Requirement already satisfied: PySocks!=1.5.7,<2.0,>=1.5.6 in /usr/lib/python3/dist-packages (from urllib3>=1.21.1->pinecone-client==2.2.1->-r requirements.txt (line 15)) (1.7.1)
+Requirement already satisfied: cryptography>=1.3.4 in /usr/lib/python3/dist-packages (from urllib3>=1.21.1->pinecone-client==2.2.1->-r requirements.txt (line 15)) (3.4.8)
+Requirement already satisfied: pyOpenSSL>=0.14 in /usr/lib/python3/dist-packages (from urllib3>=1.21.1->pinecone-client==2.2.1->-r requirements.txt (line 15)) (21.0.0)
+Collecting distlib<1,>=0.3.6
+  Downloading distlib-0.3.6-py2.py3-none-any.whl (468 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 468.5/468.5 KB 91.4 MB/s eta 0:00:00
+Collecting filelock<4,>=3.11
+  Downloading filelock-3.12.0-py3-none-any.whl (10 kB)
+Requirement already satisfied: multidict<7.0,>=4.5 in /home/peixoto/.local/lib/python3.10/site-packages (from aiohttp->openai==0.27.2->-r requirements.txt (line 4)) (6.0.4)
+Requirement already satisfied: aiosignal>=1.1.2 in /home/peixoto/.local/lib/python3.10/site-packages (from aiohttp->openai==0.27.2->-r requirements.txt (line 4)) (1.3.1)
+Requirement already satisfied: frozenlist>=1.1.1 in /home/peixoto/.local/lib/python3.10/site-packages (from aiohttp->openai==0.27.2->-r requirements.txt (line 4)) (1.3.3)
+Collecting anyio<5.0,>=3.0
+  Downloading anyio-3.6.2-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.6/80.6 KB 20.1 MB/s eta 0:00:00
+Collecting h11<0.15,>=0.13
+  Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 KB 14.3 MB/s eta 0:00:00
+Requirement already satisfied: pyasn1>=0.1.3 in /usr/lib/python3/dist-packages (from rsa<5,>=3.1.4->google-auth<3.0.0dev,>=1.19.0->google-api-python-client->-r requirements.txt (line 14)) (0.4.8)
+Installing collected packages: sortedcontainers, py-cpuinfo, playsound, distlib, cymem, wrapt, websocket-client, watchdog, wasabi, typing-extensions, tomli, spacy-loggers, spacy-legacy, soupsieve, sniffio, smmap, smart-open, shellingham, requests, regex, redis, pyyaml, python-dotenv, pytest-integration, pyflakes, pycodestyle, pluggy, platformdirs, pathspec, packaging, orjson, nodeenv, mypy-extensions, murmurhash, mergedeep, mccabe, markdown, loguru, langcodes, jinja2, isort, iniconfig, identify, h11, ghp-import, filelock, exceptiongroup, distro, diskcache, cssselect, coverage, colorama, click, cfgv, catalogue, blis, attrs, asynctest, async-generator, abstract-singleton, wsproto, webdriver-manager, virtualenv, vcrpy, typer, tiktoken, srsly, requests-oauthlib, readability-lxml, pyyaml-env-tag, pytest, pymdown-extensions, pydantic, preshed, pinecone-client, outcome, gTTS, gitdb, flake8, duckduckgo-search, docker, black, beautifulsoup4, autoflake, auto-gpt-plugin-template, anyio, tweepy, trio, pytest-recording, pytest-mock, pytest-cov, pytest-benchmark, pytest-asyncio, pre-commit, pathy, openai, mkdocs, httpcore, gitpython, confection, trio-websocket, thinc, httpx, spacy, selenium, openapi-python-client, en-core-web-sm
+  Attempting uninstall: pytest
+    Found existing installation: pytest 2.6.0
+    Uninstalling pytest-2.6.0:
+      Successfully uninstalled pytest-2.6.0
+  Attempting uninstall: openai
+    Found existing installation: openai 0.27.4
+    Uninstalling openai-0.27.4:
+      Successfully uninstalled openai-0.27.4
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+uno 0.3.3 requires pytest==2.6.0, but you have pytest 7.3.1 which is incompatible.
+Successfully installed abstract-singleton-1.0.1 anyio-3.6.2 async-generator-1.10 asynctest-0.13.0 attrs-23.1.0 auto-gpt-plugin-template-0.0.3 autoflake-2.1.1 beautifulsoup4-4.12.2 black-23.3.0 blis-0.7.9 catalogue-2.0.8 cfgv-3.3.1 click-8.1.3 colorama-0.4.6 confection-0.0.4 coverage-7.2.5 cssselect-1.2.0 cymem-2.0.7 diskcache-5.6.1 distlib-0.3.6 distro-1.8.0 docker-6.1.0 duckduckgo-search-2.9.3 en-core-web-sm-3.5.0 exceptiongroup-1.1.1 filelock-3.12.0 flake8-6.0.0 gTTS-2.3.1 ghp-import-2.1.0 gitdb-4.0.10 gitpython-3.1.31 h11-0.14.0 httpcore-0.17.0 httpx-0.24.0 identify-2.5.24 iniconfig-2.0.0 isort-5.12.0 jinja2-3.1.2 langcodes-3.3.0 loguru-0.7.0 markdown-3.3.7 mccabe-0.7.0 mergedeep-1.3.4 mkdocs-1.4.3 murmurhash-1.0.9 mypy-extensions-1.0.0 nodeenv-1.7.0 openai-0.27.2 openapi-python-client-0.13.4 orjson-3.8.10 outcome-1.2.0 packaging-23.1 pathspec-0.11.1 pathy-0.10.1 pinecone-client-2.2.1 platformdirs-3.5.0 playsound-1.2.2 pluggy-1.0.0 pre-commit-3.3.1 preshed-3.0.8 py-cpuinfo-9.0.0 pycodestyle-2.10.0 pydantic-1.10.7 pyflakes-3.0.1 pymdown-extensions-9.11 pytest-7.3.1 pytest-asyncio-0.21.0 pytest-benchmark-4.0.0 pytest-cov-4.0.0 pytest-integration-0.2.3 pytest-mock-3.10.0 pytest-recording-0.12.2 python-dotenv-1.0.0 pyyaml-6.0 pyyaml-env-tag-0.1 readability-lxml-0.8.1 redis-4.5.4 regex-2023.5.5 requests-2.30.0 requests-oauthlib-1.3.1 selenium-4.1.4 shellingham-1.5.0.post1 smart-open-6.3.0 smmap-5.0.0 sniffio-1.3.0 sortedcontainers-2.4.0 soupsieve-2.4.1 spacy-3.5.2 spacy-legacy-3.0.12 spacy-loggers-1.0.4 srsly-2.4.6 thinc-8.1.10 tiktoken-0.3.3 tomli-2.0.1 trio-0.22.0 trio-websocket-0.10.2 tweepy-4.14.0 typer-0.7.0 typing-extensions-4.5.0 vcrpy-4.2.1 virtualenv-20.23.0 wasabi-1.1.1 watchdog-3.0.0 webdriver-manager-3.8.6 websocket-client-1.5.1 wrapt-1.15.0 wsproto-1.2.0
+
