@@ -63,8 +63,8 @@ def main():
     as informações relevantes, chama generate_install_commands() e generate_uninstall_commands() 
     para gerar os comandos necessários e chama write_commands_to_file()"""
     
-    log_file = 'logcagada.txt'
-    output_file = 'solucao.py'
+    log_file = './logdacagada.txt'
+    output_file = './solucao.py'
     try:
         # extrai as informações relevantes do arquivo de log
         already_installed, to_be_installed, to_be_uninstalled = extract_data_from_log(log_file)
