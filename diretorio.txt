@@ -1,0 +1,9 @@
+total 48
+drwxrwxr-x  3 peixoto peixoto  4096 mai  7 20:28 .
+drwxr-xr-x 12 peixoto peixoto  4096 mai  7 20:06 ..
+-rw-rw-r--  1 peixoto peixoto     0 mai  7 20:06 cagada.py
+-rw-rw-r--  1 peixoto peixoto     0 mai  7 20:28 diretorio.txt
+-rw-rw-r--  1 peixoto peixoto 29450 mai  7 20:05 logdacagada.txt
+drwxrwxr-x  2 peixoto peixoto  4096 mai  7 20:27 __pycache__
+-rw-rw-r--  1 peixoto peixoto     0 mai  7 20:08 requirementsbacktodefuture.txt
+-rw-rw-r--  1 peixoto peixoto   973 mai  7 20:10 requirements.txt
